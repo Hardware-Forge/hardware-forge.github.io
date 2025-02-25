@@ -1,0 +1,185 @@
+<!doctype html>
+<html data-bs-theme="auto" lang="en">
+<head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <link rel="icon" type="image/jpg" href="images/group-logo.png">
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="Elia Lazzeri" name="author">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+    <title>Hardware-Forge</title>
+
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top sb-navbar" style="background-color: #FFFFFF;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Hardware Forge</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="design.html" title="">Designs and Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pubblication.html" title="">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html" title="">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="theses.html" title="">Theses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html" title="">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" title="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 100px; margin-bottom: 50px;">
+        <div class="d-flex align-items-center text-body-emphasis text-decoration-none" href="#">
+            <img src="images/group-logo.png" class="logo-rescuer" alt="">
+            <div class="d-flex flex-column">
+                <h1>Hardware Forge</h1>
+                <p>Crafting the revolution of semiconductors</p>
+                <p>a research group from the <a href="https://www.polimi.it">Politecnico di Milano</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Theses</h1>
+
+        <p>If interested write us an <a href="mailto:luca.cassano@polimi.it?cc=elia.lazzeri@polimi.com">email</a>!</p>
+
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Development of a Multi-Core RISC-V SoC for Harsh Environments</h5>
+            <div class="card-body">
+                <p>
+                    <strong>In collaboration with Dr. Luigi Dilillo, University of Montpellier, France</strong><br><br>
+                    Radiation-induced effects, such as Single Event Upsets (SEU) and Total Ionizing Dose (TID), pose significant challenges for electronic systems operating in space and other harsh environments. This internship will focus on extending an existing RISC-V-based System-on-Chip to a multi-core architecture in order to enhance performance and fault tolerance against radiation effects. The work involves modifying the existing VHDL design to support multiple cores, implementing inter-core communication and synchronization, and integrating fault-mitigation techniques. Candidates should have experience in VHDL, processor architecture, C programming, and microcontrollers.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Exploiting GPU Microarchitectures for Novel Hardware Attacks: Investigating Memory Leaks and Arbitrary Code Execution Without Physical Access</h5>
+            <div class="card-body">
+                <p>
+                    This thesis will investigate how modern Graphics Processing Units (GPUs) can be exploited to reveal sensitive data or run unauthorized code, all without requiring physical access or elevated permissions. By studying GPU-specific features, such as caching techniques, memory management, and parallel processing pipelines, the project aims to uncover new attack vectors and demonstrate them through proof-of-concept exploits. Finally, the research will suggest countermeasures and improved design strategies to enhance GPU security against these emerging threats.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Development of a Linux Kernel Module for Fault Injection in Processors</h5>
+            <div class="card-body">
+                <p>
+                    This thesis aims to develop a Linux kernel module enabling fault injection into selected processes or programs running on a processor. The tool will simulate adverse conditions, such as ionizing radiation, that affect memory and computation. The solution may involve a kernel module, a small fork, or a patch to the Linux kernel, allowing controlled or random fault injection for automated and repeatable testing. The system will help evaluate application resilience to faults and will include a configurable logging mechanism at multiple levels to track performance and events.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Exploiting Software Obfuscation to prevent Transient Execution Attacks in RISC-V processors</h5>
+            <div class="card-body">
+                <p>
+                    This thesis focuses on the design and development of software obfuscation engine to enhance the security of computing systems. The idea is to modify the control and data flows of a program in order to make Transient Execution Attacks like Spectre and Meltdown more difficult to be executed or even impossible.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Development of Machine Learning for Real-Time Error Detection and Attack Prevention Based on System Measurements</h5>
+            <div class="card-body">
+                <p>
+                    This thesis focuses on developing a machine learning (ML) system for detecting errors and potential attacks in real-time by analyzing various system measurements, including microarchitectural data. The research will explore which system metrics are most effective for accurate detection and how the ML system can interact directly with hardware to perform error correction, reconfiguration, or deactivation in response to detected issues.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Analysis and Improvement of RISC-V Memory Models: Performance Limitations and Bottlenecks</h5>
+            <div class="card-body">
+                <p>
+                    This thesis will conduct a comprehensive study of the RISC-V memory models, identifying potential performance limitations and bottlenecks. The research will aim to propose improvements that can enhance memory management, consistency, and overall system performance, with a focus on scalability and reliability in complex computing environments.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Design of Integrated GPU Architectures for RISC-V System-on-Chip (SoC) Platforms</h5>
+            <div class="card-body">
+                <p>
+                    This thesis explores the development of new integrated GPU architectures within RISC-V SoC platforms. By designing GPU modules that are seamlessly integrated with the RISC-V architecture, the research will focus on improving graphical processing efficiency and enabling more powerful and energy-efficient SoC solutions for diverse applications.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Development of Novel Trusted Execution Environments (TEEs)</h5>
+            <div class="card-body">
+                <p>
+                    This thesis focuses on the design and development of new Trusted Execution Environments (TEEs) to enhance the security of computing systems. The research will explore innovative TEE architectures that provide improved protection for sensitive data and operations, particularly in embedded systems, ensuring that security is maintained even in the presence of malicious attacks (Transient Execution Attacks like Spectre and Meltdown, for example) or software vulnerabilities.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Development of Novel Transient Execution Attacks (TEAs): Exploiting Microarchitectural Vulnerabilities</h5>
+            <div class="card-body">
+                <p>
+                    This thesis investigates the development of new transient execution attacks (TEAs) that exploit microarchitectural vulnerabilities in modern processors. The research will focus on identifying weaknesses in the execution pipeline, speculative execution mechanisms, and related hardware features, demonstrating how these can be leveraged to bypass traditional security measures. Additionally, the thesis will aim to propose countermeasures and mitigations to defend against these emerging threats, enhancing the security of future processor architectures.
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Deep Learning-based attack detection in RISC-V microprocessors</h5>
+            <div class="card-body">
+                <p>
+                    Modern microprocessors have advanced features like cache hierarchies, acceleration units, out-of-order and speculative execution: on the one hand, all these features dramatically increase systems performance but, on the other hand, they expose the system to a new menace: the so-called Microarchitectural Side-Channel Attacks (MSCAs), such as Spectre and Meltdown. Protecting a system from these attacks is extremely challenging, and this becomes even harder in the embedded scenario, where Operating System support and multiple cores may be unavailable. This thesis aims at exploring the feasibility of adopting hardware performance counters (HPCs) monitoring and deep learning (DL)-based anomaly detection (for example Recurrent Neural Networks) to identify the execution of MSCAs in embedded microprocessors. The basic idea is to add a Security Checking module between the microprocessor and the main memory to observe the fetching activity and the HPCs. The introduced checker shall neither interferes with the nominal activity of the microprocessor nor requires any modification of the microprocessor itself. Existing RISC-V microprocessors could be considered as a target hardware platform.
+                    <br>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container text-center">
+        <a href="https://github.com/Hardware-Forge" style="text-decoration: none;margin-right: 5px;">
+            <img class="logo-varius" src="images/github-logo.png">
+        </a>
+        <a href="https://twitter.com/pulp_platform">
+            <img class="logo-varius" src="images/linkedin-logo.png">
+            <br><br>
+        </a>
+        © Hardware Forge, 2025
+        <br><br>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
