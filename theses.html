@@ -69,139 +69,56 @@
     <div class="container">
         <h1>Theses</h1>
 
-        <p>If interested write us an <a href="mailto:luca.cassano@polimi.it?cc=elia.lazzeri@polimi.com">email</a>!</p>
+        <p>We currently offer thesis projects in processor architecture, computer security, machine learning, and on-chip interconnects. If interested, write us an <a href="mailto:luca.cassano@polimi.it?cc=elia.lazzeri@polimi.com">email</a>.</p>
 
         <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Exploring Security Vulnerabilities in the OpenTitan Framework: A Comprehensive Analysis and Testing Approach</h5>
-            <div class="card-body">
-                <p>
-                    This work focuses on conducting an in-depth security evaluation of the OpenTitan framework, an open-source silicon root of trust designed to reinforce trusted computing on hardware-level systems. The research will begin with a thorough review of OpenTitan’s architecture, security features, and implementation details to identify potential weakness points. Building on this understanding, the project will employ systematic testing methods, including static code analysis, fuzzing, and hardware penetration testing, to uncover vulnerabilities and assess the impact of any discovered flaws on system integrity.
-                    <br>
-                </p>
-            </div>
-        </div>
-        <!-- <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Development of a Multi-Core RISC-V SoC for Harsh Environments</h5>
-            <div class="card-body">
-                <p>
-                    <strong>In collaboration with Dr. Luigi Dilillo, University of Montpellier, France</strong><br><br>
-                    Radiation-induced effects, such as Single Event Upsets (SEU) and Total Ionizing Dose (TID), pose significant challenges for electronic systems operating in space and other harsh environments. This internship will focus on extending an existing RISC-V-based System-on-Chip to a multi-core architecture in order to enhance performance and fault tolerance against radiation effects. The work involves modifying the existing VHDL design to support multiple cores, implementing inter-core communication and synchronization, and integrating fault-mitigation techniques. Candidates should have experience in VHDL, processor architecture, C programming, and microcontrollers.
-                    <br>
-                </p>
-            </div>
+            <h5 class="card-header">Adaptive Instruction Prefetching for Modern SoC Workloads</h5>
+            <div class="card-body"><p>Study instruction prefetching methods that adapt to different workloads and evaluate their effects on modern system-on-chip performance.</p></div>
         </div>
         <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Analysis of NASA's Core Flight System (cFS) Framework: An Application Case Study for Electro-Optical Payload Management on CubeSats</h5>
-            <div class="card-body">
-                <p>
-                    <strong>In collaboration with TDS-Space and the European Space Agency</strong><br><br>
-                    The Core Flight System is an advanced software architecture based on the mission operation services of the CCSDS (Consultative Committee for Space Data Systems). Developed by NASA, this software is designed to support space operations and system integration for various aerospace missions, thanks to its modularity that allows updates similar to smartphone applications. NASA's cFS is a software framework intended to support space operations and system integration across diverse aerospace missions. Thesis/Internship Objectives: The thesis and internship activities are designed to investigate the effectiveness of NASA's Core Flight System (cFS) in managing electro-optical payloads on CubeSat platforms. This evaluation specifically focuses on the performance of the cFS when operational on a representative target computing platform for data handling and processing, developed by TSD-Space. Specifically, the focus will be on implementing a cFS application that manages image acquisition operations, integrating monitoring and control services performed through the cFS framework and the C programming language.
-                    <br>
-                </p>
-            </div>
+            <h5 class="card-header">Development of Side-Channel Attacks on Commercial TPUs: Physical and Microarchitectural Threat Landscapes in Edge AI</h5>
+            <div class="card-body"><p>Investigate physical and microarchitectural side-channel risks in commercial tensor processing units used for edge AI.</p></div>
         </div>
         <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Real-Time Onboard 2D Image Correlation System for Estimating and Compensating Instantaneous Focal Plane Motion: An FPGA implementation.</h5>
-            <div class="card-body">
-                <p>
-                    <strong>In collaboration with TDS-Space and the European Space Agency</strong><br><br>
-                    The activities will be conducted in the framework of the FOPAC project, led by TSD-Space and founded by the Italian Space Agency. The FOPAC’s goal is to develop an active motion control system for the focal plane of electro-optical payloads adopted in Earth observation applications to enhance image quality in terms of spatial resolution and Signal-to-Noise Ratio (SNR). These platforms often feature telescopes with limited focal length and aperture, and less accurate attitude control systems. FOPAC can be utilized for implementing active focal plane stabilization techniques and pixel-shifting acquisition mode. Active stabilization mitigates motion blur effects due to platform instability and enables the adoption of advanced Time Delay Integration (TDI) techniques for SNR improvements. The FOPAC project incorporates the implementation of real-time onboard 2D image correlation algorithms to estimate the instantaneous motion of the focal plane and stabilize it. This compensates for the limited attitude control performance of small platforms, which significantly impacts image quality. Focal plane stabilization, capable of compensating for platform jitter—a source of instability—allows for increased exposure times, thereby enhancing the SNR. Alternatively, with the same exposure time, it reduces motion blur, thus improving the Modulation Transfer Function (MTF). The primary activity of the candidate will be to explore and survey different approaches in 2D image correlation and motion estimation, focusing on new algorithms based on AI. The selected algorithm will be accelerated on an FPGA platform for real-time execution.
-                    <br>
-                </p>
-            </div>
+            <h5 class="card-header">Analysis of the Impact of Microarchitectural and Architectural Features of Modern Processors on the Susceptibility to Transient Execution Attacks</h5>
+            <div class="card-body"><p>Analyze how processor architecture and microarchitecture affect susceptibility to transient execution attacks.</p></div>
         </div>
         <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-        <h5 class="card-header">Real-time onboard satellite image registration for Digital TDI: An FPGA Implementation</h5>
-        <div class="card-body">
-            <p>
-                <strong>In collaboration with TDS-Space and the European Space Agency</strong><br><br>
-                In the field of Earth observation, the digital Time-Delay Integration (TDI) acquisition technique is crucial for enhancing the quality of satellite images. This method utilizes electro-optical payloads to capture sub-stripes or partially overlapping images. By digitally summing the signals encoded in the pixels of different sub-stripes that correspond to the same ground point, it is possible to reduce uncorrelated noise and significantly increase signal amplitude. This process leads to a substantial improvement in the signal-to-noise ratio (SNR) and, consequently, the overall quality of the image. However, the digital TDI technique requires capturing multiple images of the same sample, thereby increasing the resources needed for data storage and transmission to ground stations. By performing digital TDI operations directly onboard the spacecraft, it is possible to drastically minimize the volume of data to be stored and maximize the efficiency of bandwidth use for downlink. Digital TDI activity essentially includes image alignment, which is a prerequisite to ensure that the sum of signals occurs exclusively among pixels corresponding to the same ground sample. During the internship at TSD-Space, the candidate will explore various methods for digital image registration, including advanced approaches that incorporate artificial intelligence. The selected algorithm will be accelerated on an FPGA platform for real-time execution, significantly enhancing the effectiveness of the TDI process.
-                <br>
-            </p>
-        </div>
-    </div> -->
-<!--        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Exploiting GPU Microarchitectures for Novel Hardware Attacks: Investigating Memory Leaks and Arbitrary Code Execution Without Physical Access</h5>
-            <div class="card-body">
-                <p>
-                    This thesis will investigate how modern Graphics Processing Units (GPUs) can be exploited to reveal sensitive data or run unauthorized code, all without requiring physical access or elevated permissions. By studying GPU-specific features, such as caching techniques, memory management, and parallel processing pipelines, the project aims to uncover new attack vectors and demonstrate them through proof-of-concept exploits. Finally, the research will suggest countermeasures and improved design strategies to enhance GPU security against these emerging threats.
-                    <br>
-                </p>
-            </div>
-        </div>-->
-        <!-- <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Development of a Linux Kernel Module for Fault Injection in Processors</h5>
-            <div class="card-body">
-                <p>
-                    This thesis aims to develop a Linux kernel module enabling fault injection into selected processes or programs running on a processor. The tool will simulate adverse conditions, such as ionizing radiation, that affect memory and computation. The solution may involve a kernel module, a small fork, or a patch to the Linux kernel, allowing controlled or random fault injection for automated and repeatable testing. The system will help evaluate application resilience to faults and will include a configurable logging mechanism at multiple levels to track performance and events.
-                    <br>
-                </p>
-            </div>
-        </div> -->
-        <!-- <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Exploiting Software Obfuscation to prevent Transient Execution Attacks in RISC-V processors</h5>
-            <div class="card-body">
-                <p>
-                    This thesis focuses on the design and development of software obfuscation engine to enhance the security of computing systems. The idea is to modify the control and data flows of a program in order to make Transient Execution Attacks like Spectre and Meltdown more difficult to be executed or even impossible.
-                    <br>
-                </p>
-            </div>
-        </div> -->
-<!--        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Development of Machine Learning for Real-Time Error Detection and Attack Prevention Based on System Measurements</h5>
-            <div class="card-body">
-                <p>
-                    This thesis focuses on developing a machine learning (ML) system for detecting errors and potential attacks in real-time by analyzing various system measurements, including microarchitectural data. The research will explore which system metrics are most effective for accurate detection and how the ML system can interact directly with hardware to perform error correction, reconfiguration, or deactivation in response to detected issues.
-                    <br>
-                </p>
-            </div>
-        </div>-->
-        <!-- <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Analysis and Improvement of RISC-V Memory Models: Performance Limitations and Bottlenecks</h5>
-            <div class="card-body">
-                <p>
-                    This thesis will conduct a comprehensive study of the RISC-V memory models, identifying potential performance limitations and bottlenecks. The research will aim to propose improvements that can enhance memory management, consistency, and overall system performance, with a focus on scalability and reliability in complex computing environments.
-                    <br>
-                </p>
-            </div>
-        </div> -->
-        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Design of Integrated GPU Architectures for RISC-V System-on-Chip (SoC) Platforms</h5>
-            <div class="card-body">
-                <p>
-                    This thesis explores the development of new integrated GPU architectures within RISC-V SoC platforms. By designing GPU modules that are seamlessly integrated with the RISC-V architecture, the research will focus on improving graphical processing efficiency and enabling more powerful and energy-efficient SoC solutions for diverse applications.
-                    <br>
-                </p>
-            </div>
+            <h5 class="card-header">Development of Machine Learning Methodologies for Security Attacks Detection and Prevention Based on On-Chip Measurements</h5>
+            <div class="card-body"><p>Develop and assess machine learning methods that use on-chip measurements to detect and help prevent security attacks.</p></div>
         </div>
         <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Development of Novel Trusted Execution Environments (TEEs)</h5>
-            <div class="card-body">
-                <p>
-                    This thesis focuses on the design and development of new Trusted Execution Environments (TEEs) to enhance the security of computing systems. The research will explore innovative TEE architectures that provide improved protection for sensitive data and operations, particularly in embedded systems, ensuring that security is maintained even in the presence of malicious attacks (Transient Execution Attacks like Spectre and Meltdown, for example) or software vulnerabilities.
-                    <br>
-                </p>
-            </div>
+            <h5 class="card-header">Development of Transient Execution Attacks against NIST Post-Quantum Cryptography</h5>
+            <div class="card-body"><p>Study transient execution attacks against implementations of post-quantum cryptography standards selected by NIST.</p></div>
         </div>
-<!--        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Development of Novel Transient Execution Attacks (TEAs): Exploiting Microarchitectural Vulnerabilities</h5>
-            <div class="card-body">
-                <p>
-                    This thesis investigates the development of new transient execution attacks (TEAs) that exploit microarchitectural vulnerabilities in modern processors. The research will focus on identifying weaknesses in the execution pipeline, speculative execution mechanisms, and related hardware features, demonstrating how these can be leveraged to bypass traditional security measures. Additionally, the thesis will aim to propose countermeasures and mitigations to defend against these emerging threats, enhancing the security of future processor architectures.
-                    <br>
-                </p>
-            </div>
-        </div>-->
-<!--        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
-            <h5 class="card-header">Deep Learning-based attack detection in RISC-V microprocessors</h5>
-            <div class="card-body">
-                <p>
-                    Modern microprocessors have advanced features like cache hierarchies, acceleration units, out-of-order and speculative execution: on the one hand, all these features dramatically increase systems performance but, on the other hand, they expose the system to a new menace: the so-called Microarchitectural Side-Channel Attacks (MSCAs), such as Spectre and Meltdown. Protecting a system from these attacks is extremely challenging, and this becomes even harder in the embedded scenario, where Operating System support and multiple cores may be unavailable. This thesis aims at exploring the feasibility of adopting hardware performance counters (HPCs) monitoring and deep learning (DL)-based anomaly detection (for example Recurrent Neural Networks) to identify the execution of MSCAs in embedded microprocessors. The basic idea is to add a Security Checking module between the microprocessor and the main memory to observe the fetching activity and the HPCs. The introduced checker shall neither interferes with the nominal activity of the microprocessor nor requires any modification of the microprocessor itself. Existing RISC-V microprocessors could be considered as a target hardware platform.
-                    <br>
-                </p>
-            </div>
-        </div>-->
-
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Multicast-Capable NoC Routers for Coherence Traffic in RISC-V Multicore Clusters: Deadlock-Safe Routing and Protocol Co-Design</h5>
+            <div class="card-body"><p>Design and evaluate multicast-capable network-on-chip routers for coherence traffic, with deadlock-safe routing and coordinated protocol design.</p></div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Topology-Aware NUCA over NoC for RISC-V SoCs: Placement, Migration, and Coherence-Driven Data Movement</h5>
+            <div class="card-body"><p>Explore topology-aware data placement and migration in a non-uniform cache architecture connected over a network-on-chip for RISC-V systems.</p></div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Ultra-Compact NoC for RISC-V MCU-Class Multicores with Lightweight Coherence and Low-Power Links</h5>
+            <div class="card-body"><p>Explore a compact network-on-chip for microcontroller-class RISC-V multicores, including lightweight cache coherence and low-power links.</p></div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Development of Novel Trusted Execution Environments (TEEs) (in collaboration with the European Space Agency)</h5>
+            <div class="card-body"><p>Explore the design and development of trusted execution environments for protecting sensitive operations and data.</p></div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Design of Integrated GPU Architectures for RISC-V System-on-Chip (SoC) Platforms (in collaboration with the European Space Agency)</h5>
+            <div class="card-body"><p>Explore GPU architectures integrated with RISC-V system-on-chip platforms.</p></div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Exploiting GPU Microarchitectures for Novel Hardware Attacks: Investigating Memory Leaks and Arbitrary Code Execution Without Physical Access (in collaboration with the European Space Agency)</h5>
+            <div class="card-body"><p>Investigate GPU microarchitectural attack surfaces related to memory leaks and code execution without physical access.</p></div>
+        </div>
+        <div class="card" style="margin-top: 25px; margin-bottom: 25px;">
+            <h5 class="card-header">Exploring Security Vulnerabilities in the OpenTitan Framework: A Comprehensive Analysis and Testing Approach (in collaboration with the European Space Agency)</h5>
+            <div class="card-body"><p>Analyze the OpenTitan framework and test its components to identify and assess potential security vulnerabilities.</p></div>
+        </div>
     </div>
 
     <div class="container text-center">
